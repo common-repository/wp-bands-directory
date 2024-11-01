@@ -1,0 +1,27 @@
+.wp-admin #wbd_cpt_details.postbox {}
+.wp-admin #wbd_cpt_details.postbox .inside {}
+.wp-admin #wbd_cpt_details.postbox label, .wp-admin #wbd_cpt_details.postbox input, .wp-admin #wbd_cpt_details.postbox select {width: 100%;}
+.wp-admin #wbd_cpt_details.postbox label {font-weight: bold; padding-top: 4px; width: 100%; float: left;}
+.wp-admin #wbd_cpt_details.postbox label span {font-weight: normal;}
+.wp-admin #wbd_cpt_details.postbox input.addButton {width: 49%; float: left;}
+.wp-admin #wbd_cpt_details.postbox input.removeButton {width: 49%; float: right;}
+.wp-admin #wbd_cpt_details.postbox div.multibuttons {width: 100%; float: left;}
+
+.wp-admin #wbd_template_files th {width: auto; text-align: right;}
+
+/*textarea#wbd_artist_details_grpmembers, textarea#wbd_album_details_tracklist  {width: 100%; height: 200px;}*/
+
+#menu-posts-wbd_artist .wp-menu-image {background-image: url('../images/artist.png');}
+#menu-posts-wbd_album .wp-menu-image {background-image: url('../images/album.png');}
+#menu-posts-wbd_song .wp-menu-image {background-image: url('../images/song.png');}
+#toplevel_page_wbd_settings .wp-menu-image {background-image: url('../images/wbdicon.png');}
+
+#menu-posts-wbd_artist .wp-menu-image, #menu-posts-wbd_album .wp-menu-image, #menu-posts-wbd_song .wp-menu-image, #toplevel_page_wbd_settings .wp-menu-image {background-position: 6px -26px !important;}
+#menu-posts-wbd_artist:hover .wp-menu-image, #menu-posts-wbd_album:hover .wp-menu-image, #menu-posts-wbd_song:hover .wp-menu-image, #toplevel_page_wbd_settings:hover .wp-menu-image {background-position: 6px 1px !important;}
+
+
+/* de-emphasize non-functional content */
+/*
+#wbd_settings_rewrites, #wbd_settings_rewrites .form-table th, .form-wrap label {color: #CCCCCC !important;}
+#wbd_settings_rewrites p.submit {display: none;}
+*/
